@@ -17,4 +17,4 @@
 	Last update:2018/06/23 #YYYY-MM-DD
 	Language:  English
 	Doctype:HTML5
-	Programs: Notepad++, Photoshop
+	Programs: Notepad++, Photoshop, Paint.NET
