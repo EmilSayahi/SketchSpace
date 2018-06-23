@@ -29,7 +29,7 @@ collections:
   posts:
     title: posts
     output: true
-baseurl: "/SketchSpace" #   If you're not hosting on a subdomain, set this to blank. If not, put the SUBDOMAIN ONLY into the baseurl field. Example: "/comics"
+baseurl: "/SketchSpace" #   If you're not hosting in a folder, set this to blank. If not, put the FOLDER ONLY into the baseurl field. Example: "/comics"
 markdown: kramdown
 gems:
 - jekyll-paginate
