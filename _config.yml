@@ -4,10 +4,10 @@ tagline: "This website is running on SketchSpace"   #   You can change this.
 url: "http://emilsayahi.github.io/SketchSpace/" # The base hostname & protocol for your site. Use it if you need absolute URL's.
 author: Your Name   #   This name...might be real?
 disqus_shortname:   "emilsayahi"  #   Your Disqus shortname for comic embeds.
-comments: no #  If 'yes', then your comics will have Disqus comments enabled. If 'no' (default), then there will be no comments section.
-post_title_is_img: no # Determines if the title of each comic post is an image or text. Default is 'no'.
-web_title_is_img: no # Determines if the title of the website is an image or text. Default is 'yes'.
-nav_buttons_is_img: no #    Determines if the navigation buttons of the site are images or unicode. Default is 'no'.
+comments: false #  If 'true', then your comics will have Disqus comments enabled. If 'false' (default), then there will be no comments section.
+post_title_is_img: false # Determines if the title of each comic post is an image or text. Default is 'false'.
+web_title_is_img: true # Determines if the title of the website is an image or text. Default is 'true'.
+nav_buttons_is_img: false #    Determines if the navigation buttons of the site are images or unicode. Default is 'false'.
 post_title_path: /path/to/img # If the post title is an image, then the image at this path will be supplied. Leave this blank if the title is in the comic.
 web_title_path: /path/to/img # If the website title is an image, then the image at this path will be supplied.
 nav_button_path: /path/to/ # If the navigation buttons are images, then the buttons will be retrieved from this folder. Buttons should be named "nav_left.png" and "nav_right.png".
