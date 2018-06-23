@@ -47,6 +47,4 @@ Save your comics themselves as images in the ```comics``` directory of your inst
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
-	line-height: 16px;">Copyright © <script type="text/javascript">
-  document.write(new Date().getFullYear());
-</script> Emil Sayahi. All rights reserved.</p>
+	line-height: 16px;">Copyright © 2018 Emil Sayahi. All rights reserved.</p>
