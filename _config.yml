@@ -24,7 +24,11 @@ instagram: ig-username   #   Your Instagram handle
 phone: "+1 555-111-0100" #  This number isn't real.
 email: "example@example.com" #  This e-mail isn't real.
 
-#Jekyll Settings
+#Jekyll settings
+collections:
+  posts:
+    title: posts
+    output: true
 baseurl: "" #   If you're not hosting on a subdomain, set this to blank. If not, put the SUBDOMAIN ONLY into the baseurl field. Example: "/comics"
 markdown: kramdown
 gems:
