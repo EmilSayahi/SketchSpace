@@ -1,6 +1,6 @@
 # SketchSpace
 The space for your comics on the web.
-<a href="https://github.com/EmilSayahi/SketchSpace"><center><img src="https://github.com/EmilSayahi/SketchSpace/raw/master/img/logo_cropped.png" height="400" width="400"></img></center></a>
+<center><a href="https://github.com/EmilSayahi/SketchSpace"><img src="https://github.com/EmilSayahi/SketchSpace/raw/master/img/logo_cropped.png" height="400" width="400"></img></a></center>
 
 This site is built on [Garrett Boatman's blank Jekyll template](https://github.com/garrettboatman/Blank-Theme-Jekyll) and [Lài Xìntāo's Jekyll stylesheet.](https://github.com/laixintao/Princess-Diaries/tree/master/_sass)
 
@@ -41,3 +41,6 @@ Save your post as a .markdown file, with the filename containing just ANSI chara
 ```YYYY-MM-DD```
 
 Save your comics themselves as images in the ```comics``` directory of your installation. These are what go into your .markdown files.
+
+## Known Issues
+- Due to technical limitations, the 'Random comic' button cannot send you to the first comic.
