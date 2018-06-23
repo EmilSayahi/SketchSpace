@@ -31,6 +31,9 @@ layout: comic
 
 ```
 
-Save your post as a .markdown file, with the filename containing just ANSI characters with no spaces into the ```_posts``` directory of your installation. If you need spaces, replace them with dashes or underscores.
+Save your post as a .markdown file, with the filename containing just ANSI characters with no spaces into the ```_posts``` directory of your installation. If you need spaces, replace them with dashes or underscores. The name must begin with the date in the following format:
+
+
+```YYYY-MM-DD```
 
 Save your comics themselves as images in the ```comics``` directory of your installation. These are what go into your .markdown files.
