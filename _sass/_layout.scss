@@ -1,6 +1,7 @@
 $bar_width: 210px;
 $bar_margin_left: 40%;
-$page_content_width: 100%;
+$page_content_width: 490px;
+$page_content_size: 100%;
 
 .main{
     width: $bar_width + $page_content_width;
@@ -25,7 +26,7 @@ $page_content_width: 100%;
 }
 
 .page-content{
-    width: $page_content_width;
+    width: $page_content_size;
     //margin-right: auto;
     //margin-left: auto;
     margin-right: $bar_width;
