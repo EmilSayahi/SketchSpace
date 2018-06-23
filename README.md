@@ -2,9 +2,9 @@
 The space for your comics on the web.
 
 
-This site is built on [Garrett Boatman's blank Jekyll template.](https://github.com/garrettboatman/Blank-Theme-Jekyll)
+This site is built on [Garrett Boatman's blank Jekyll template](https://github.com/garrettboatman/Blank-Theme-Jekyll) and [Lài Xìntāo's Jekyll stylesheet.](https://github.com/laixintao/Princess-Diaries/tree/master/_sass)
 
-[Demo](http://emilsayahi.github.io/SketchSpace)
+[Demonstration](http://emilsayahi.github.io/SketchSpace)
 
 
 
@@ -27,9 +27,12 @@ date: YYYY-MM-DD HH:MM:SS -HH:MM
 layout: comic
 ---
 
-{% include image.html image="/comics/example-comic.jpg" %}
+{% include comic.html comic="http://example.com/comics/example-comic.jpg" %}
 
 ```
+
+Important note: Jekyll seems to have issues with compiling a post if the comic path is a URN instead of a URL, so give absolute paths instead of relative ones.
+
 
 Save your post as a .markdown file, with the filename containing just ANSI characters with no spaces into the ```_posts``` directory of your installation. If you need spaces, replace them with dashes or underscores. The name must begin with the date in the following format:
 
