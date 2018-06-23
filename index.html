@@ -99,6 +99,15 @@ title: Homepage
             <img src="{{ site.nav_button_path | prepend: site.baseurl }}/nav_right.png"></img>
 		{% endif %}</a>
         {% endif %}
+<a href="/page/<script>
+	function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+	document.write(getRandomInt(1, {{ paginator.total_pages }}));
+</script>">
+	<span> <i class="icon-undo"></i>Random comic</span>
+</a>
+
     </div>
 </div>
 <section>
