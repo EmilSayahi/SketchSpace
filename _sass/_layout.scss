@@ -1,0 +1,82 @@
+$bar_width: 210px;
+$page_content_width: 490px;
+
+.main{
+    width: $bar_width + $page_content_width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**
+ * Site header
+ */
+.bar-wapper{
+    width: auto;
+}
+
+.bar {
+    margin-top: 30px;
+    //margin-left: auto;
+    //margin-right: auto;
+    width: $bar_width;
+    margin-left: $page_content_width;
+    position: fixed;
+}
+
+.page-content{
+    width: $page_content_width;
+    //margin-right: auto;
+    //margin-left: auto;
+    margin-right: $bar_width;
+    padding: 5px 5px 5px;
+}
+
+.avatar{
+    right: 29px;
+    position: absolute;
+    z-index: 999;
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.bar-box{
+    z-index: 888;
+    margin-top: 90px;
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.page-container{
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.content{
+    margin-top: 30px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.post-meta{
+    padding: 7px 10px;
+    padding-left: $page_content_width - 130px;
+    margin-left: -15px;
+    width: 110%;
+    background: #f6f6f6;
+    border-top: 1px solid #e1e1e1;
+    margin-bottom: -15px;
+    word-wrap: break-word;
+}
+
+.categories{
+    padding: 2px 8px;
+}
+
+.tags{
+    padding: 2px 8px 4px;
+}
