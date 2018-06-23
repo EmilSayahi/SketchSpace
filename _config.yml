@@ -13,12 +13,11 @@ nav_button_path: /path/to/ # If the navigation buttons are images, then the butt
 
 
 # Social (optional)
-socialimg: /img/social.jpg # Be sure to change this image
-facebook: fb-username    #   URL to your Facebook
-twitter: tw-username #   URL to your Twitter
-github: gh-username  #   URL to your GitHub
-googleplus: g-username   #   URL to your Google+ (ha!)
-instagram: ig-username   #   URL to your Instagram
+facebook: https://www.facebook.com/zuck    #   URL to your Facebook
+twitter: https://twitter.com/twitter #   URL to your Twitter
+github: https://github.com/defunkt  #   URL to your GitHub
+googleplus: https://plus.google.com/+google   #   URL to your Google+ (ha!)
+instagram: https://www.instagram.com/instagram/   #   URL to your Instagram
 
 # Contact
 phone: "+1 555-111-0100" #  This number isn't real.
