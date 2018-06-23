@@ -9,7 +9,7 @@
 		    {{ site.title }}	
 		    {% endif %}
 		{% if site.web_title_is_img == true %}
-                <img src="{{ site.web_title_path }}"></img>
+                <img src="{{ site.web_title_path | prepend: site.baseurl }}"></img>
 		{% endif %}
             </a>
         </div>
