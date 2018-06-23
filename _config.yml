@@ -8,8 +8,7 @@ comments: false #  If 'true', then your comics will have Disqus comments enabled
 post_title_is_img: false # Determines if the title of each comic post is an image or text. Default is 'false'.
 web_title_is_img: true # Determines if the title of the website is an image or text. Default is 'true'.
 nav_buttons_is_img: false #    Determines if the navigation buttons of the site are images or unicode. Default is 'false'.
-post_title_path: /path/to/img # If the post title is an image, then the image at this path will be supplied. Leave this blank if the title is in the comic.
-web_title_path: /path/to/img # If the website title is an image, then the image at this path will be supplied.
+web_title_path: "{{ site.baseurl }}/img/logo_cropped.png" # If the website title is an image, then the image at this path will be supplied.
 nav_button_path: /path/to/ # If the navigation buttons are images, then the buttons will be retrieved from this folder. Buttons should be named "nav_left.png" and "nav_right.png".
 
 
