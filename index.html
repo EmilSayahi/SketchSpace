@@ -75,4 +75,9 @@ layout: default
         {% endif %}
     </div>
 </div>
+<section>
+{% for page in site.posts %}
+  {% include image.html %}
+{% endfor %}
+</section>
 {% include footer.html %}

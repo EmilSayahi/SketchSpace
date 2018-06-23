@@ -3,6 +3,7 @@ title: Your SketchSpace Site    #   Please change this.
 tagline: "This website is running on SketchSpace"   #   You can change this.
 url: "http://emilsayahi.github.io/SketchSpace/" # The base hostname & protocol for your site. Use it if you need absolute URL's.
 author: Your Name   #   This name...might be real?
+disqus_shortname:   "emilsayahi"  #   Your Disqus shortname for comic embeds.
 comments: no #  If 'yes', then your comics will have Disqus comments enabled. If 'no' (default), then there will be no comments section.
 post_title_is_img: no # Determines if the title of each comic post is an image or text. Default is 'no'.
 web_title_is_img: yes # Determines if the title of the website is an image or text. Default is 'yes'.
