@@ -32,6 +32,7 @@ layout: default
       </div>
     </div>
   </div>
+  {% if site.comments == "yes" %}
   {% include disqus.html %}
-
+  {% endif %}
 </article>
