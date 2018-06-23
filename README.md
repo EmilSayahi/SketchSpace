@@ -24,11 +24,13 @@ All posts on SketchSpace must follow the following format:
 ---
 title: Comic Title
 date: YYYY-MM-DD HH:MM:SS -HH:MM
-categories:
-- categories_are_optional
 layout: comic
 ---
 
 {% include image.html image="/comics/example-comic.jpg" %}
 
 ```
+
+Save your post as a .markdown file, with the filename containing just ANSI characters with no spaces into the ```_posts``` directory of your installation. If you need spaces, replace them with dashes or underscores.
+
+Save your comics themselves as images in the ```comics``` directory of your installation. These are what go into your .markdown files.
