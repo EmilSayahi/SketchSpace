@@ -12,7 +12,7 @@ This site is built on [Garrett Boatman's blank Jekyll template](https://github.c
 
 ## Setup
 1. Personalize the ```_config.yml``` file in your installation directory.
-2. Begin uploading your posts to the ```/_posts``` directory of your installation.
+2. Begin uploading your posts to the ```_posts``` directory of your installation.
 
 This is assuming that you have hosting in place.
 You can self-host Jekyll and then supply this repository to the Jekyll software on your server, or you can host on [GitHub Pages](https://pages.github.com/).
