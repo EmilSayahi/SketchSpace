@@ -25,10 +25,10 @@ All posts on SketchSpace must follow the following format:
 ---
 title: Comic Title
 date: YYYY-MM-DD HH:MM:SS -HH:MM
-layout: comic
+comic: http://example.com/comics/example-comic.jpg
 ---
 
-{% include comic.html comic="http://example.com/comics/example-comic.jpg" %}
+{% include comic.html %}
 
 ```
 
