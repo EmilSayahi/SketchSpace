@@ -27,7 +27,7 @@ date: YYYY-MM-DD HH:MM:SS -HH:MM
 layout: comic
 ---
 
-{% include image.html image="/comics/example-comic.jpg" %}
+{% include image.html image="{{ site.basurl }}/comics/example-comic.jpg" %}
 
 ```
 
