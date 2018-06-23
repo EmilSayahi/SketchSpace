@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<section>
+{% for page in site.posts %}
+  {% include image.html %}
+{% endfor %}
+</section>
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="content">

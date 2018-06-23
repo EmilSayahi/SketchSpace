@@ -10,7 +10,7 @@ This site is built on [Garrett Boatman's blank Jekyll template.](https://github.
 
 
 ## Setup
-1. Personalize the config.yml file in your installation directory.
+1. Personalize the ```_config.yml``` file in your installation directory.
 2. Begin uploading your posts to the /posts/ directory of your installation.
 
 This is assuming that you have hosting in place.

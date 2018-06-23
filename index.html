@@ -1,14 +1,82 @@
 ---
 layout: default
-title: "Home Page"
-fulltitle: "My New Website | Update Coming August 2004" 
-excerpt: This is the greatest website on earth. Share! Like! Subscribe! I'm dead inside!
+title: 
+fulltitle: 
+excerpt: 
 ---
-<!-- fulltitle: This overrides the default page title, which is "{{page.tite}} | {{site.title}}" -->
+<!-- fulltitle: This overrides the default page title, which is "{{page.title}} | {{site.title}}" -->
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+{% include head.html %}
 
+<div class="post-list">
+    {% for post in paginator.posts %}
+    <div class="content">
+        <h2>
+            <a class="post-link"
+               href="{{ post.url | prepend: site.baseurl }}/index.html">
+                {{ post.title }}
+            </a>
+        </h2>
 
-<section>
-  <h1>{{site.title}}</h1>
-  <h4>{{site.tagline}}. Isn't your website beautiful?!</h4>
-</section>
+        <div class="post-content">
+            {{ post.content }}
+        </div>
+
+            <div class="categories">
+                {% if post.categories != empty %}
+                    <i class="icon-folder-open icon-large"></i>
+                    {{post.categories}}
+                {%endif%}
+            </div>
+        <div class="tags">
+            {% if post.tags != empty %}
+                <i class="icon-tags icon-large"></i>
+
+{% assign uniq_tags = post.tags
+                      
+                      | join: ","
+                      | split: ","
+                      | uniq %}
+{{ uniq_tags | join: ", " }}
+
+            {%endif%}
+        </div>
+        <div class="post-meta">
+            <div class="post-meta-data">
+                <i class="icon-pencil icon-large"></i>
+                {{ post.date | date: "%b %-d, %Y" }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div id="pagination">
+    <div class="pagenavi">
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/" class="current">
+            <i class="icon-chevron-left"></i>
+        </a>
+        {% else %}
+        <a href="/page{{paginator.previous_page}}">
+            <i class="icon-chevron-left"></i>
+        </a>
+        {% endif %}
+        {% else %}
+        <span> <i class="icon-chevron-left"></i></span>
+        {% endif %}
+        {% for count in (2..paginator.total_pages) limit:8 %}
+        {% if count == paginator.page %}
+        <span class="current-page">{{count}}</span>
+        {% else %}
+        <a href="/page{{count}}">{{count}}</a>
+        {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <a href="/page{{paginator.next_page}}"><i class="icon-chevron-right"></i></a>
+        {% endif %}
+    </div>
+</div>
+{% include footer.html %}
