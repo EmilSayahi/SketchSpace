@@ -9,7 +9,7 @@ layout: default
     <div class="content">
         <h2>
             <a class="post-link"
-               href="{{ site.baseurl }}/{{ post.url }}index.html">
+               href="{{ post.url | prepend: site.baseurl }}index.html">
                 {{ post.title }}
             </a>
         </h2>
