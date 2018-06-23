@@ -32,8 +32,6 @@ comic: http://example.com/comics/example-comic.jpg
 
 ```
 
-Important note: Jekyll seems to have issues with compiling a post if the comic path is a URN instead of a URL, so give absolute paths instead of relative ones.
-
 
 Save your post as a .markdown file, with the filename containing just ANSI characters with no spaces into the ```_posts``` directory of your installation. If you need spaces, replace them with dashes or underscores. The name must begin with the date in the following format:
 
@@ -46,3 +44,4 @@ By giving a post a date in the future, you can keep it unpublished until that da
 
 ## Known Issues
 - Due to technical limitations, the 'Random comic' button cannot send you to the first comic.
+- Jekyll seems to have issues with compiling a post if the comic path is a URN instead of a URL, so give absolute paths instead of relative ones.
