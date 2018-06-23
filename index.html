@@ -105,7 +105,7 @@ var dir1 = '<a href="{{ site.baseurl }}/page';
 	function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-	var num = getRandomInt(1, {{ paginator.total_pages }});
+	var num = getRandomInt(2, {{ paginator.total_pages }});
 	var dir2 = num.toString();
 	document.write(dir1 + dir2 + '"');
 </script>
