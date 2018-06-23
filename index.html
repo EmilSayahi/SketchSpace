@@ -57,7 +57,7 @@ title: Homepage
     <div class="pagenavi">
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-        <a href="/" class="current">
+        <a href="{{ site.baseurl }}/" class="current">
 		{% if site.nav_buttons_is_img == false %}
             <i class="icon-chevron-left"></i>
 		{% endif %}
