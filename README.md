@@ -42,5 +42,7 @@ Save your post as a .markdown file, with the filename containing just ANSI chara
 
 Save your comics themselves as images in the ```comics``` directory of your installation. These are what go into your .markdown files.
 
+By giving a post a date in the future, you can keep it unpublished until that date arrives, automatically publishing it. This way you can schedule future posts.
+
 ## Known Issues
 - Due to technical limitations, the 'Random comic' button cannot send you to the first comic.
