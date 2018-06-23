@@ -41,10 +41,3 @@ Save your post as a .markdown file, with the filename containing just ANSI chara
 ```YYYY-MM-DD```
 
 Save your comics themselves as images in the ```comics``` directory of your installation. These are what go into your .markdown files.
-
-<p style="font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
-	font-size: 10px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 16px;">Copyright © 2018 Emil Sayahi. All rights reserved.</p>
