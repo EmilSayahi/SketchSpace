@@ -1,0 +1,14 @@
+/* PEOPLE */
+	Base Theme Developer: Garrett Boatman
+	Twitter: @garrettboatman
+
+	Developer: Emil Sayahi
+	Contact: em [at] emsa.cf
+	Twitter: @emilsayahi
+	Location: Cincinnati, OH
+
+/* SITE */
+	Last update:2018/06/23 #YYYY-MM-DD
+	Language:  English
+	Doctype:HTML5
+	Programs: Notepad++, Photoshop

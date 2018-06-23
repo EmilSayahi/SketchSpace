@@ -1,0 +1,29 @@
+# Site settings
+title: Your SketchSpace Site
+tagline: "This website is running on SketchSpace"
+url: "http://example.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+post_title_is_img: no # Determines if the title of each comic post is an image or text. Default is 'no'.
+web_title_is_img: yes # Determines if the title of the website is an image or text. Default is 'yes'.
+nav_buttons_is_img: no #    Determines if the navigation buttons of the site are images or unicode. Default is 'no'.
+post_title_path: /path/to/img # If the post title is an image, then the image at this path will be supplied. Leave this blank if the title is in the comic.
+web_title_path: /path/to/img # If the website title is an image, then the image at this path will be supplied.
+nav_button_path: /path/to/ # If the navigation buttons are images, then the buttons will be retrieved from this folder. Buttons should be named "nav_left.png" and "nav_right.png".
+
+
+# Social
+socialimg: /img/social.jpg # be sure to change this image
+facebook: fbusername    #   Your Facebook username
+twitter: twusername #   Your Twitter handle
+github: ghusername  #   Your GitHub account name
+googleplus: gusername   #   Your Google+ username (ha!)
+instagram: igusername   #   Your Instagram handle
+
+# Contact
+phone: "+1 555-111-0100" #  This number isn't real.
+email: "bob@bob.com" #  This e-mail is real.
+
+#   Use this for when you're hosting a production branch.
+#sass:
+#    style: compressed
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
