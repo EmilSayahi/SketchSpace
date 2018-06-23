@@ -12,7 +12,7 @@ This site is built on [Garrett Boatman's blank Jekyll template](https://github.c
 
 ## Setup
 1. Personalize the ```_config.yml``` file in your installation directory.
-2. Begin uploading your posts to the ```/_posts``` directory of your installation.
+2. Begin uploading your posts to the ```_posts``` directory of your installation.
 
 This is assuming that you have hosting in place.
 You can self-host Jekyll and then supply this repository to the Jekyll software on your server, or you can host on [GitHub Pages](https://pages.github.com/).
@@ -41,6 +41,8 @@ Save your post as a .markdown file, with the filename containing just ANSI chara
 ```YYYY-MM-DD```
 
 Save your comics themselves as images in the ```comics``` directory of your installation. These are what go into your .markdown files.
+
+By giving a post a date in the future, you can keep it unpublished until that date arrives, automatically publishing it. This way you can schedule future posts.
 
 ## Known Issues
 - Due to technical limitations, the 'Random comic' button cannot send you to the first comic.
