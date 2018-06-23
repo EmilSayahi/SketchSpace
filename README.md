@@ -1,12 +1,13 @@
 # SketchSpace
 The space for your comics on the web.
-
+<center><img src="https://github.com/EmilSayahi/SketchSpace/raw/master/img/logo_cropped.png"></img></center>
 
 This site is built on [Garrett Boatman's blank Jekyll template](https://github.com/garrettboatman/Blank-Theme-Jekyll) and [Lài Xìntāo's Jekyll stylesheet.](https://github.com/laixintao/Princess-Diaries/tree/master/_sass)
 
 [Demonstration](http://emilsayahi.github.io/SketchSpace)
 
 
+<center><img src="https://github.com/EmilSayahi/SketchSpace/raw/master/img/example_screenshot.PNG"></img></center>
 
 
 ## Setup
