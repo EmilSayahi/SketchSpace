@@ -1,7 +1,7 @@
 /* PEOPLE */
 
 	Base Theme Developer: Garrett Boatman
-	Twitter: @garrettboatman
+	Twitter: garrettboatman
 	GitHub: https://github.com/garrettboatman
 
 	Base CSS Developer: 赖信涛 (Lài Xìntāo)
@@ -9,7 +9,7 @@
 	
 	Developer: Emil Sayahi
 	Contact: em [at] emsa.cf
-	Twitter: @emilsayahi
+	Twitter: emilsayahi
 	GitHub: https://github.com/ByEmilSayahi
 	Location: Cincinnati, OH
 
