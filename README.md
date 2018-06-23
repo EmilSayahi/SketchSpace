@@ -1,9 +1,12 @@
 # SketchSpace
 The space for your sketches, on the web.
+
+
+This site is built on [Garrett Boatman's blank Jekyll template.](https://github.com/garrettboatman/Blank-Theme-Jekyll)
+
 [Demo](http://emilsayahi.github.io/SketchSpace)
 
 
-[Using Garrett Boatman's blank Jekyll template.](https://github.com/garrettboatman/Blank-Theme-Jekyll)
 
 
 ## Setup
