@@ -66,7 +66,7 @@ title: Homepage
 		{% endif %}
         </a>
         {% else %}
-        <a href="/page{{paginator.previous_page}}">
+        <a href="{{ site.baseurl }}/page{{paginator.previous_page}}">
             		{% if site.nav_buttons_is_img == false %}
             <i class="icon-chevron-left"></i>
 		{% endif %}
@@ -87,12 +87,12 @@ title: Homepage
         {% if count == paginator.page %}
         <span class="current-page">{{count}}</span>
         {% else %}
-        <a href="/page{{count}}">{{count}}</a>
+        <a href="{{ site.baseurl }}/page{{count}}">{{count}}</a>
         {% endif %}
         {% endfor %}
 
         {% if paginator.next_page %}
-        <a href="/page{{paginator.next_page}}">		{% if site.nav_buttons_is_img == false %}
+        <a href="{{ site.baseurl }}/page{{paginator.next_page}}">		{% if site.nav_buttons_is_img == false %}
             <i class="icon-chevron-right"></i>
 		{% endif %}
 				{% if site.nav_buttons_is_img == true %}
@@ -101,7 +101,7 @@ title: Homepage
         {% endif %}
 {% if paginator.total_pages > 1 %}
 <script>
-var dir1 = '<a href="/page';
+var dir1 = '<a href="{{ site.baseurl }}/page';
 	function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
