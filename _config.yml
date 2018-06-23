@@ -15,11 +15,11 @@ nav_button_path: /path/to/ # If the navigation buttons are images, then the butt
 
 # Social (optional)
 socialimg: /img/social.jpg # Be sure to change this image
-facebook: fb-username    #   Your Facebook username
-twitter: tw-username #   Your Twitter handle
-github: gh-username  #   Your GitHub account name
-googleplus: g-username   #   Your Google+ username (ha!)
-instagram: ig-username   #   Your Instagram handle
+facebook: fb-username    #   URL to your Facebook
+twitter: tw-username #   URL to your Twitter
+github: gh-username  #   URL to your GitHub
+googleplus: g-username   #   URL to your Google+ (ha!)
+instagram: ig-username   #   URL to your Instagram
 
 # Contact
 phone: "+1 555-111-0100" #  This number isn't real.

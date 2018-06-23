@@ -1,0 +1,58 @@
+
+<header class="bar">
+
+    <div class="bar-box">
+
+        <div class="site-titlediv">
+            <a class="site-title" href="{{ site.baseurl }}/">
+                {{ site.title }}
+            </a>
+        </div>
+        <div class="description">
+            {{ site.description }}
+        </div>
+        <div class="social-link">
+            {%if site.url != empty %}
+            <a href="{{site.url}}">
+                <i class="icon-large icon-globe"></i>
+            </a>
+            {%endif%}
+			            {%if site.facebook != empty %}
+            <a href="{{site.facebook}}">
+                <i class="icon-large icon-facebook"></i>
+            </a>
+            {%endif%}
+            {%if site.twitter != empty %}
+            <a href="{{site.twitter}}">
+                <i class="icon-large icon-twitter"></i>
+            </a>
+            {%endif%}
+            {%if site.github != empty %}
+            <a href="{{site.github}}">
+                <i class="icon-large icon-github"></i>
+            </a>
+            {%endif%}
+			            {%if site.googleplus != empty %}
+            <a href="{{site.googleplus}}">
+                <i class="icon-large icon-googleplus"></i>
+            </a>
+            {%endif%}
+			            {%if site.instagram != empty %}
+            <a href="{{site.instagram}}">
+                <i class="icon-large icon-instagram"></i>
+            </a>
+            {%endif%}
+        </div>
+        <div class="pages">
+            {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="rss">
+                <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="icon-large icon-rss"></i>ｒｓｓ</a>
+        </div>
+    </div>
+
+</header>
