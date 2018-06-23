@@ -35,7 +35,7 @@ markdown: kramdown
 gems:
 - jekyll-paginate
 permalink: pretty
-paginate: 10
+paginate: 1
 paginate_path: blog/page:num
 
 #   Use this for when you're hosting a production branch.
