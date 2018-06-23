@@ -25,7 +25,7 @@ All posts on SketchSpace must follow the following format:
 ---
 title: Comic Title
 date: YYYY-MM-DD HH:MM:SS -HH:MM
-comic: https://github.com/EmilSayahi/SketchSpace/raw/master/comics/example-comic.jpg
+comic: http://example.com/comics/example-comic.jpg
 ---
 
 {% include comic.html %}
