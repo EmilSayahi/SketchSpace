@@ -5,10 +5,10 @@
 
         <div class="site-titlediv">
             <a class="site-title" href="{{ site.baseurl }}/">
-		    {% if site.web_title_is_img == "yes" %}
-		    <img src="{site.url}/img/logo.png" width="10%" height="10%"></img>
+		    {% if site.web_title_is_img == "no" %}
+		    {{ site.title }}		    
 		{% else %}
-                {{ site.title }}
+                <img src="{site.url}/img/logo.png" width="10%" height="10%"></img>
 		{% endif %}
             </a>
         </div>
