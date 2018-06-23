@@ -10,7 +10,12 @@ layout: default
     <center><h2>
       <a class="post-link"
          href="{{ page.url | prepend: site.baseurl }}">
-        {{ page.title }}
+        		    {% if site.post_title_rendered == true %}
+                {{ page.title }}
+		    {% endif %}
+		    {% if site.post_title_rendered == false %}
+
+{% endif %}
       </a>
     </h2>
 </center>
