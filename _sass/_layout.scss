@@ -1,5 +1,6 @@
 $bar_width: 210px;
-$page_content_width: 490px;
+$bar_margin_left: 40%;
+$page_content_width: 100%;
 
 .main{
     width: $bar_width + $page_content_width;
@@ -19,7 +20,7 @@ $page_content_width: 490px;
     //margin-left: auto;
     //margin-right: auto;
     width: $bar_width;
-    margin-left: $page_content_width;
+    margin-left: $bar_margin_left;
     position: fixed;
 }
 
@@ -29,17 +30,6 @@ $page_content_width: 490px;
     //margin-left: auto;
     margin-right: $bar_width;
     padding: 5px 5px 5px;
-}
-
-.avatar{
-    right: 29px;
-    position: absolute;
-    z-index: 999;
-    display: block;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    padding: 4px;
 }
 
 .bar-box{
@@ -58,7 +48,7 @@ $page_content_width: 490px;
 
 .content{
     margin-top: 30px;
-    margin-right: 15px;
+    margin-right: 0px;
     overflow: hidden;
 }
 
