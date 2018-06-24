@@ -11,12 +11,12 @@ title: Homepage
 	</div>
 	<div class="social-link" style="float: right">
 		<a href="">
-	<i class="icon-large icon-phone"> {{site.phone}}</i>
+	<i class="icon-large icon-phone" style="padding-bottom: 0px;margin-bottom: 0px;border-bottom-width: 0px;border-bottom-style: solid;padding-right: 20px;">> {{site.phone}}</i>
 	</a>
 	</div>
 <div class="post-list">
     {% for post in paginator.posts %}
-    <div class="content" style="width: 550px;height: 775px;padding-right: 0px;padding-left: 42.5px;">
+    <div class="content" style="width: 550px;height: 775px;padding-right: 0px;padding-left: 42.5px;margin-left: 0%;">
         <center><h2>
             <a class="post-link"
                href="{{ post.url | prepend: site.baseurl }}">
