@@ -1,5 +1,5 @@
 $bar_width: 210px;
-$bar_margin_left: 760px;
+$bar_margin_left: 39.9%;
 $page_content_width: 490px;
 $page_content_size: 88%;
 
@@ -17,12 +17,13 @@ $page_content_size: 88%;
 }
 
 .bar {
-    margin-top: 30px;
+    margin-top: -90px;
+	margin-bottom: -30px;
     //margin-left: auto;
     //margin-right: auto;
     width: $bar_width;
     margin-left: $bar_margin_left;
-    position: fixed;
+    position: sticky;
 }
 
 .page-content{
@@ -36,10 +37,10 @@ $page_content_size: 88%;
 .bar-box{
     z-index: 888;
     margin-top: 90px;
-    padding-top: 70px;
+    padding-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .page-container{
