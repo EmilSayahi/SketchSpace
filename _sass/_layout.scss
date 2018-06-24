@@ -31,7 +31,7 @@ $page_content_size: 88%;
     //margin-right: auto;
     //margin-left: auto;
     margin-right: $bar_width;
-    padding: 5px 5px 5px;
+    padding: 5px 15px 5px;
 }
 
 .bar-box{
@@ -44,19 +44,20 @@ $page_content_size: 88%;
 }
 
 .page-container{
-    margin-right: 15px;
-    margin-bottom: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 .content{
     margin-top: 30px;
     margin-right: 0px;
+	margin-left:33%;
     overflow: hidden;
 }
 
 .post-meta{
     padding: 7px 10px;
-    padding-left: 93%;
+    padding-left: 91.5%;
     margin-left: -5%;
     width: 110%;
     background: #f6f6f6;
