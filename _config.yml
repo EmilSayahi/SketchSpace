@@ -10,7 +10,7 @@ web_title_is_img: true # Determines if the title of the website is an image or t
 nav_buttons_is_img: false #    Determines if the navigation buttons of the site are images or unicode. Default is 'false'.
 web_title_path: "/img/logo_cropped.png" # If the website title is an image, then the image at this path will be supplied.
 nav_button_path: "/img/" # If the navigation buttons are images, then the buttons will be retrieved from this folder. Buttons should be named "nav_left.png" and "nav_right.png".
-
+trial_mode: true  # Meant for use on the demo site only. Disable this.
 
 # Social (optional)
 facebook: https://www.facebook.com/zuck    #   URL to your Facebook
