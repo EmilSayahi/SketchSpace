@@ -1,14 +1,14 @@
 # Site settings
-title: Your SketchSpace Site    #   Please change this.
+title: Your SketchSpace Site    #    Your site's name.
 timezone: America/New_York  #   Input your timezone. A list of timezones is at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones . Input whatever is in the 'TZ*' tab of the list.
-tagline: "This website is running on SketchSpace"   #   You can change this.
-url: "http://emilsayahi.github.io/SketchSpace/" # The base hostname & protocol for your site. Use it if you need absolute URL's.
-author: Your Name   #   This name...might be real? Naming laws are a bit funny in some places. Just change it regardless, haha.
-disqus_shortname:   ""  #   Your Disqus shortname for comic embeds.
+tagline: "This website is running on SketchSpace"   #    Your site's tagline, present on every page.
+url: "http://emilsayahi.github.io/SketchSpace/" # The base hostname & protocol for your site. Your URL.
+author: Your Name   #   Your name.
+disqus_shortname:   ""  #    Your Disqus shortname. This is for embedding a comments section (if you want one).
 comments: false #  If 'true', then your comics will have Disqus comments enabled. If 'false' (default), then there will be no comments section.
 post_title_rendered: true # Determines if the title of each comic post is rendered. Default is 'true'.
 web_title_is_img: true # Determines if the title of the website is an image or text. Default is 'true'.
-nav_buttons_is_img: false #    Determines if the navigation buttons of the site are images or unicode. Default is 'false'.
+nav_buttons_are_img: false #    Determines if the navigation buttons of the site are images or unicode. Default is 'false'.
 web_title_path: "/img/logo_cropped.png" # If the website title is an image, then the image at this path will be supplied.
 nav_button_path: "/img/" # If the navigation buttons are images, then the buttons will be retrieved from this folder. Buttons should be named "nav_left.png" and "nav_right.png".
 trial_mode: true  # Meant for use on the demo site only. Disable this.
@@ -21,8 +21,10 @@ googleplus: https://plus.google.com/+google   #   URL to your Google+ (ha!)
 instagram: https://www.instagram.com/instagram/   #   URL to your Instagram
 
 # Contact
-phone: "+1 800-555-0100" #  This number isn't real.
-email: "example@example.com" #  This e-mail isn't real.
+phone: "+1 800-555-0100" #   Your phone number in your contact info (if you want it visible to begin with).
+email: "example@example.com" #  Your email address in your contact info (if you want it visible to begin with).
+phone_enabled:  #    If set to 'true', then the phone number field will appear in your site's contact info section. Default is 'false'.
+email_enabled:  #    If set to 'true', then the email address field will appear in your site's contact info section. Default is 'false'.
 
 #Jekyll settings
 collections:
@@ -31,10 +33,14 @@ collections:
     output: true
 baseurl: "/SketchSpace" #   If you're not hosting in a folder, set this to blank. If not, put the FOLDER ONLY into the baseurl field. Example: "/comics"
 markdown: kramdown
-gems:
+gems:   #   This is for installing Jekyll gems/plugins. Almost all plugins won't work on GitHub Pages (meanwhile GitLab Pages doesn't limit you), so only use this for self hosting or GitLab Pages/some other service. If you use GitHub Pages, check this page of the allowed plugins: https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
 - jekyll-paginate
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-feed
+- jemoji
 permalink: pretty
-paginate: 1
+paginate: 1 #   This is for setting how many comics appear on each page. If you set this to something other than '1', then the 'Random comic' button will break. If you want to change this for whatever reason, either rename the button to 'Random page' or just get rid of it.
 paginate_path: page:num
 
 #   Use this for when you're hosting a production branch.

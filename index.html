@@ -88,10 +88,10 @@ title: Homepage
         </a>
         {% endif %}
         {% else %}
-        		{% if site.nav_buttons_is_img == false %}
+        		{% if site.nav_buttons_are_img == false %}
 <span> <i class="icon-chevron-left"></i></span>
 		{% endif %}
-				{% if site.nav_buttons_is_img == true %}
+				{% if site.nav_buttons_are_img == true %}
             <img src="{{ site.nav_button_path | prepend: site.baseurl }}/nav_left.png"></img>
 		{% endif %}
         {% endif %}
