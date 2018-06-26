@@ -20,11 +20,11 @@ github: https://github.com/defunkt  #   URL to your GitHub
 googleplus: https://plus.google.com/+google   #   URL to your Google+ (ha!)
 instagram: https://www.instagram.com/instagram/   #   URL to your Instagram
 
-# Contact
+# Contact (optional)
 phone: "+1 800-555-0100" #   Your phone number in your contact info (if you want it visible to begin with).
 email: "example@example.com" #  Your email address in your contact info (if you want it visible to begin with).
-phone_enabled:  #    If set to 'true', then the phone number field will appear in your site's contact info section. Default is 'false'.
-email_enabled:  #    If set to 'true', then the email address field will appear in your site's contact info section. Default is 'false'.
+phone_enabled:  true  #    If set to 'true', then the phone number field will appear in your site's contact info section. Default is 'true'.
+email_enabled:  true  #    If set to 'true', then the email address field will appear in your site's contact info section. Default is 'true'.
 
 #Jekyll settings
 collections:
