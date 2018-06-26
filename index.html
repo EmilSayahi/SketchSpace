@@ -74,19 +74,19 @@ title: Homepage
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
         <a href="{{ site.baseurl }}/" class="current">
-		{% if site.nav_buttons_is_img == false %}
+		{% if site.nav_buttons_are_img == false %}
             <i class="icon-chevron-left"></i>
 		{% endif %}
-				{% if site.nav_buttons_is_img == true %}
+				{% if site.nav_buttons_are_img == true %}
             <img src="{{ site.nav_button_path | prepend: site.baseurl }}/nav_left.png"></img>
 		{% endif %}
         </a>
         {% else %}
         <a href="{{ site.baseurl }}/page{{paginator.previous_page}}">
-            		{% if site.nav_buttons_is_img == false %}
+            		{% if site.nav_buttons_are_img == false %}
             <i class="icon-chevron-left"></i>
 		{% endif %}
-				{% if site.nav_buttons_is_img == true %}
+				{% if site.nav_buttons_are_img == true %}
             <img src="{{ site.nav_button_path | prepend: site.baseurl }}/nav_left.png"></img>
 		{% endif %}
         </a>
@@ -108,10 +108,10 @@ title: Homepage
         {% endfor %}
 
         {% if paginator.next_page %}
-        <a href="{{ site.baseurl }}/page{{paginator.next_page}}">		{% if site.nav_buttons_is_img == false %}
+        <a href="{{ site.baseurl }}/page{{paginator.next_page}}">		{% if site.nav_buttons_are_img == false %}
             <i class="icon-chevron-right"></i>
 		{% endif %}
-				{% if site.nav_buttons_is_img == true %}
+				{% if site.nav_buttons_are_img == true %}
             <img src="{{ site.nav_button_path | prepend: site.baseurl }}/nav_right.png"></img>
 		{% endif %}</a>
         {% endif %}
