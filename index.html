@@ -4,6 +4,9 @@ title: Homepage
 ---
 <!-- fulltitle: This overrides the default page title, which is "{{page.title}} | {{site.title}}" -->
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
+{% if site.trial_mode == true %}
+<a href="https://github.com/EmilSayahi/SketchSpace/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+{% endif %}
 	<div class="social-link contact-mail">
 	            <a href="mailto:{{site.email}}">
                 <i class="icon-large icon-inbox"> {{site.email}}</i>
