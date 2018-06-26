@@ -4,19 +4,19 @@ title: Homepage
 ---
 <!-- fulltitle: This overrides the default page title, which is "{{page.title}} | {{site.title}}" -->
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
-	<div class="social-link" style="float: left">
+	<div class="social-link">
 	            <a href="mailto:{{site.email}}">
                 <i class="icon-large icon-inbox"> {{site.email}}</i>
             </a>
 	</div>
-	<div class="social-link" style="float: right">
+	<div class="social-link">
 		<a href="">
-	<i class="icon-large icon-phone"  style="padding-bottom: 0px;margin-bottom: 0px;border-bottom-width: 0px;border-bottom-style: solid;padding-right: 40px;"> {{site.phone}}</i>
+	<i class="icon-large icon-phone"> {{site.phone}}</i>
 	</a>
 	</div>
 <div class="post-list">
     {% for post in paginator.posts %}
-    <div class="content" style="width: 550px;height: 775px;padding-right: 0px;padding-left: 20px;margin-left: 0%;">
+    <div class="content">
         <center><h2>
             <a class="post-link"
                href="{{ post.url | prepend: site.baseurl }}">
