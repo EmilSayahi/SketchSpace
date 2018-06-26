@@ -1,5 +1,6 @@
 # Site settings
 title: Your SketchSpace Site    #   Please change this.
+timezone: America/New_York  #   Input your timezone. A list of timezones is at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones . Input whatever is in the 'TZ*' tab of the list.
 tagline: "This website is running on SketchSpace"   #   You can change this.
 url: "http://emilsayahi.github.io/SketchSpace/" # The base hostname & protocol for your site. Use it if you need absolute URL's.
 author: Your Name   #   This name...might be real? Naming laws are a bit funny in some places. Just change it regardless, haha.
