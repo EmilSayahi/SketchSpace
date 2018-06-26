@@ -24,13 +24,15 @@ All posts on SketchSpace must follow the following format:
 
 ---
 title: Comic Title
-date: YYYY-MM-DD HH:MM:SS -HH:MM
+date: YYYY-MM-DD HH:MM:SS +/-HH:MM
 comic: http://example.com/comics/example-comic.jpg
 ---
 
 {% include comic.html %}
 
 ```
+
+Note: The + or - at the end of the date is your timezone's UTC offset. Find it [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) in the 'UTC offset' tab of the list.
 
 
 Save your post as a .markdown file, with the filename containing just ANSI characters with no spaces into the ```_posts``` directory of your installation. If you need spaces, replace them with dashes or underscores. The name must begin with the date in the following format:
