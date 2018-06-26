@@ -1,8 +1,3 @@
-<style>
-	meta {
-    display: none;
-}
-</style>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +6,12 @@
 	<!-- Plain Description -->
 	<title>{{ page.title }} | {{ site.title }}</title>
 	<meta name="description" content="{{ site.tagline }}">
+	<!-- I strongly recommend using https://realfavicongenerator.net/ to generate favicon code, as favicons are way more complex 
+	to implement than just importing a single image and calling it a day -->
 	<link rel="icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}">
 	
 	<!-- Google+ -->
-	<link rel="publisher" href="https://plus.google.com/{{site.googleplus}}"/>
+	<link rel="publisher" href="{{site.googleplus}}"/>
 	<meta itemprop="name" content="{{ page.title }} | {{ site.title }}">
 	<meta itemprop="description" content="{{ site.tagline }}">
 	<meta itemprop="image" content="{{ page.comic }}">
