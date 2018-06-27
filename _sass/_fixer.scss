@@ -1,47 +1,64 @@
-meta{
-    display: none;
+body {
+ margin:0
 }
-.contact-mail{
-	float: left;
+meta {
+ display:none
 }
-.contact-phone{
-	float: right;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	border-bottom-width: 0px;
-	border-bottom-style: solid;
-	padding-right: 40px;
+.contact-mail {
+ float:left
 }
-.content{
-	width: 550px;
-	height: 775px;
-	padding-right: 0px;
-	padding-left: 20px;
-	margin-left: 0%;
+.contact-phone {
+ float:right;
+ padding-bottom:0px;
+ margin-bottom:0px;
+ border-bottom-width:0px;
+ border-bottom-style:solid;
+ padding-right:40px
 }
-.footer{
-	font-family: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
-	font-size: 10px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 16px;
-	margin-left: -5%;
-	text-align: center;
+.content {
+ width:550px;
+ height:775px;
+ padding-right:0px;
+ padding-left:20px;
+ margin-left:0%
 }
-.bar-box{
-	width: 145px;
-	padding-right: 0;
-	height: 245px;
-	margin-left:-45px;
-	margin-bottom: 25px;
+.footer {
+ font-family:TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+ font-size:10px;
+ font-style:normal;
+ font-variant:normal;
+ font-weight:400;
+ line-height:16px;
+ margin-left:-5%;
+ text-align:center
 }
-.rss{
-	text-align: center;
+.bar-box {
+ width:145px;
+ padding-right:0;
+ height:245px;
+ margin-left:-45px;
+ margin-bottom:25px
 }
-.main{
-	margin: 0 auto;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+.rss {
+ text-align:center
+}
+.page-content {
+ margin:0 auto;
+ display:flex;
+ justify-content:center;
+ align-items:center
+}
+.bar {
+ //margin:0 auto;
+ display:flex;
+ justify-content:center;
+ align-items:center
+}
+.gh-promo{
+   position:absolute;
+   top:0;
+   right:0;
+}
+.gh-promo_img{
+  position: absolute; top: 0; right: 0; border: 0;
 }
