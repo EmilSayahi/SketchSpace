@@ -1,6 +1,9 @@
 body {
  margin:0
 }
+body {
+ margin:0
+}
 meta {
  display:none
 }
@@ -13,14 +16,18 @@ meta {
  margin-bottom:0px;
  border-bottom-width:0px;
  border-bottom-style:solid;
- padding-right:40px
+ //padding-right:40px
 }
 .content {
  width:550px;
  height:775px;
- padding-right:0px;
- padding-left:20px;
- margin-left:0%
+ //padding-right:0px;
+ //padding-left:20px;
+ //margin-left:0%
+  //margin:0 auto;
+ //display:flex;
+ justify-content:center;
+ align-items:center
 }
 .footer {
  font-family:TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
@@ -39,8 +46,10 @@ meta {
  margin-left:-45px;
  margin-bottom:25px
 }
-.rss {
- text-align:center
+.rss-inner {
+ text-align:center;
+  padding-bottom: 4px;
+  padding-top:4px;
 }
 .page-content {
  margin:0 auto;
@@ -49,13 +58,18 @@ meta {
  align-items:center
 }
 .bar {
- //margin:0 auto;
  display:flex;
  justify-content:center;
  align-items:center
 }
-.gh-promo{
-   position:fixed;
-   top:0;
-   right: 0;
+.gh-promo {
+ position:absolute;
+ top:0;
+ right:0
+}
+.gh-promo_img {
+ position:absolute;
+ top:0;
+ right:0;
+ border:0
 }
