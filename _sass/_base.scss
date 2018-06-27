@@ -278,11 +278,12 @@ pre {
 }
 
 #pagination{
-    padding-top: 20px;
-    padding-bottom: 8px;
-    margin-left: 25%;
-    margin-right: 0;
-    width: 50%;
+ padding-top:20px;
+ padding-bottom:8px;
+ margin:0 auto;
+ display:flex;
+ justify-content:center;
+ align-items:center
 }
 
 .pagenavi a{
