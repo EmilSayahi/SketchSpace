@@ -14,7 +14,7 @@
 	Location: Cincinnati, OH
 
 /* SITE */
-	Last update:2018/06/23 #YYYY-MM-DD
+	Last update:2018/06/27 #YYYY-MM-DD
 	Language:  English
 	Doctype:HTML5
 	Programs: Notepad++, Photoshop, Paint.NET, GitHub Desktop
