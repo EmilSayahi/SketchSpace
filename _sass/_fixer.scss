@@ -55,10 +55,7 @@ meta {
  align-items:center
 }
 .gh-promo{
-   position:absolute;
+   position:fixed;
    top:0;
-   right:0;
-}
-.gh-promo_img{
-  position: absolute; top: 0; right: 0; border: 0;
+   right: 0;
 }
