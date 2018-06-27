@@ -40,11 +40,12 @@ meta {
  text-align:center
 }
 .bar-box {
- width:145px;
+  //position:relative;
  padding-right:0;
- height:245px;
- margin-left:-45px;
- margin-bottom:25px
+ //margin-left:-65px;
+  //Some text must be here. No idea why, but it breaks the centering otherwise.
+ margin-left:auto;margin-right:auto;width:145px;height:245px;
+  margin-bottom: 10px;
 }
 .rss-inner {
  text-align:center;
@@ -63,13 +64,7 @@ meta {
  align-items:center
 }
 .gh-promo {
- position:absolute;
- top:0;
- right:0
-}
-.gh-promo_img {
- position:absolute;
- top:0;
- right:0;
- border:0
+   position:fixed;
+   top:0;
+   right: 0;
 }
