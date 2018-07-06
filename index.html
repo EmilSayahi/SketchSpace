@@ -4,23 +4,6 @@ title: Homepage
 ---
 <!-- fulltitle: This overrides the default page title, which is "{{page.title}} | {{site.title}}" -->
 <!-- excerpt: If this isn't set, it'll pull your {{site.tagline}} for meta description-->
-{% if site.trial_mode == true %}
-<a class="gh-promo" href="https://github.com/EmilSayahi/SketchSpace/"><img class="gh-promo_img" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-{% endif %}
-{% if site.email_enabled == true %}
-	<div class="social-link contact-mail">
-	            <a href="mailto:{{site.email}}">
-                <i class="icon-large icon-inbox"> {{site.email}}</i>
-            </a>
-	</div>
-{% endif %}
-{% if site.phone_enabled == true %}
-	<div class="social-link contact-phone">
-		<a>
-	<i class="icon-large icon-phone"> {{site.phone}}</i>
-	</a>
-	</div>
-{% endif %}
 <div class="post-list">
     {% for post in paginator.posts %}
     <div class="content">
